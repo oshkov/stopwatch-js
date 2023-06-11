@@ -1,0 +1,36 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+span {
+    font-size: 130px;
+    user-select: none;
+}
+
+.stopwatch {
+    text-align: center;
+    margin: 10% auto 0 auto;
+    max-width: 600px;
+    min-width: 600px;
+}
+
+.buttons {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 40%;
+    height: 80px;
+    margin: 5% 5%;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(211, 211, 211);
+}
